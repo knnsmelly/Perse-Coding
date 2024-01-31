@@ -2,6 +2,5 @@ x = int(input())
 y = int(input())
 z = int(input())
 
-answer = x + 12 * y * z
+print(x + 12 * y * z)
 
-print(answer)
