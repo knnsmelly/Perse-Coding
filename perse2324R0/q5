@@ -1,0 +1,7 @@
+f = input()
+if f == 't' or f == 'c':
+  q = 1 +  int(input())
+else:
+  q = 1
+
+print(q)
