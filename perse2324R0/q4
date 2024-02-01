@@ -1,0 +1,12 @@
+a = input()
+b = input()
+c = input()
+
+if a == b and b == c:
+  print("OK")
+elif a != b and a != c:
+  print("BOTH MISMATCH")
+elif a != b and a == c:
+  print("ENTRY 2 MISMATCH")
+else:
+  print("ENTRY 3 MISMATCH")
