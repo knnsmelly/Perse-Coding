@@ -1,0 +1,6 @@
+ms = 0 
+
+while ms < 12: 
+  ms += int(input())
+
+print(ms - 12)
