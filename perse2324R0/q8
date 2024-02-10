@@ -1,0 +1,8 @@
+word = input()
+border = '+-+'
+
+print(border)
+
+for cha in word: 
+  print('|' + cha + '|' )
+  print(border)
