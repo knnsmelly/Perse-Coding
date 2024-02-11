@@ -1,0 +1,4 @@
+peri = int(input())
+wid = int(input())
+length = peri/2 - wid
+print(int(wid*length))
