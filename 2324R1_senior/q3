@@ -1,0 +1,7 @@
+cost = int(input()) 
+penn = cost * 100
+if cost >= 4:
+  penn = penn - penn//5
+if cost >= 10:
+  penn -= 400 
+print(penn)
