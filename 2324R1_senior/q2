@@ -1,0 +1,8 @@
+f = int(input())
+c = int(input())
+total = 5*f + 2*c
+if total > 20:
+  yn = input()
+  if yn == 'y':
+    total += 1 
+print(total)
